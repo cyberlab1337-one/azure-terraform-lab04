@@ -32,3 +32,23 @@ variable "network_security_group_name" {
   type        = string
   description = "Name of the network security group"
 }
+
+variable "azurerm_network_interface_name" {
+  type        = string
+  description = "Name of the network interface"
+}
+
+variable "azurerm_linux_virtual_machine_name" {
+  type        = string
+  description = "Name of the linux virtual machine"
+}
+
+variable "azurerm_linux_virtual_machine_size" {
+  type        = string
+  description = "Size of the linux virtual machine"
+}
+
+variable "admin_username" {
+  type        = string
+  description = "Username of the admin"
+}
