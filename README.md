@@ -30,17 +30,17 @@ AzureRM Provider
 Microsoft Azure
 ```
 ## Commands
-```
+
 'terraform init'
 'terraform fmt'
 'terraform validate'
 'terraform plan'
 'terraform apply'
-```
+
 To remove the deployed infrastructure:
-
-'terraform destroy'
-
+```
+terraform destroy
+```
 ## Purpose
 
 The goal of this lab is to practice Infrastructure as Code with Terraform and learn how Azure resources reference and depend on each other.
