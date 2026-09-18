@@ -30,13 +30,13 @@ AzureRM Provider
 Microsoft Azure
 ```
 ## Commands
-'''
+```
 terraform init
 terraform fmt
 terraform validate
 terraform plan
 terraform apply
-'''
+```
 
 To remove the deployed infrastructure:
 ```
